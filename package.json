@@ -17,6 +17,7 @@
   "homepage": "https://github.com/paengjaegon/my_app#readme",
   "description": "",
   "dependencies": {
+    "ejs": "^2.3.4",
     "express": "^4.13.3"
   }
 }
