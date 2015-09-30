@@ -8,6 +8,7 @@ app.set("view engine", 'ejs');
 //app.use(express.static(__dirname+'/public'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+console.log(__dirname);
 
 var data={count:0};
 app.get('/', function (req, res){
